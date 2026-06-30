@@ -1,0 +1,61 @@
+# Mac system files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# C++ Compiled binaries / Executables
+*.out
+*.dSYM/
+
+# Ignore compiled files without extensions (common on Mac)
+# If you have specific binaries like bubbleSort or hello, ignore them manually:
+bubbleSort
+changeMaker
+hello
+asciiTable
+chessSquareColor
+clock15min
+collatzSequence
+commaFormatNum
+convertIntToStr
+convertStrToInt
+drawBox
+drawPyramid
+drawRectangle
+findAndReplace
+findAndReplace_cpp
+fizzBuzz
+generatePassword
+getCoffeeCost
+getHoursMinutesSeconds
+getMin_cpp
+handShakes
+heat_eq
+isOdd
+leapYear
+linked_list
+list
+malloc
+median
+mergeTwoLists
+multiplicationTable
+ordinalSuffix
+pascalTriangle
+pascalTriangle_2
+phonebook
+pointer
+randomShuffle
+readWriteFile
+recursiveHalfPyramid
+reverseString
+rollDice
+rot13Encryption
+rpsGame
+score
+selection
+sumProduct
+tempConv
+titleCase
+upperCase
