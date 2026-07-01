@@ -59,3 +59,44 @@ sumProduct
 tempConv
 titleCase
 upperCase
+
+# Compiled Object files
+*.o
+*.ko
+*.obj
+*.gch
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dylib
+*.so
+*.dylib.*
+*.so.*
+
+# Executables
+*.out
+*.app
+*.exe
+
+# Build Directories (e.g., CMake, Xcode)
+build/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+
+# Step 1: Ignore absolutely everything in the directory
+*
+
+# Step 2: Un-ignore all files that actually have an extension (like .cpp, .h)
+!*.*
+
+# Step 3: Un-ignore subdirectories so Git can still look inside them
+!*/
